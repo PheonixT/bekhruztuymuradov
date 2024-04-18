@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Form 1</h2>
+
+    <form action="">
+        <p>
+            <label for="firstname">Name: </label>
+            <input id="firstname" type="text" placeholder="First and last name">
+        </p>
+        <p>
+            <label for="age">Age: </label>
+            <input id="age" type="number" placeholder="Your age" >
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="Your email">
+        </p>
+        <p>
+            <label for="phoneNumber">Phone:</label>
+            <input id="phoneNumber" type="text" placeholder="Your phone" >
+        </p>
+        <p>
+            <label for="birthday">Birthday:</label>
+            <input id="birthday" type="date">
+        </p>
+        <p><i>what kind of sports do you like <b>?</b></i></p>
+        <p>
+            <label for="football">Football</label>
+            <input id="football" type="checkbox">
+        </p>
+        <p>
+            <label for="volleyball">Volleyball</label>
+            <input id="volleyball" type="checkbox">
+        </p>
+        <p>
+            <label for="chess">Chess</label>
+            <input id="chess" type="checkbox">
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    <br>
+    <br>
+    <hr>
+
+    <h2>Form 2</h2>
+    <form action="">
+        <h3>The right basic T-shirt</h3>
+        
+        <p>
+            <input type="image" src="./T shirt.jpg" height="250px">
+        </p>
+
+        <p>
+            <label>Color:</label>
+            <input type="color">
+        </p>
+        <p>
+            <label for="size">Size</label>
+            <select id="size">
+                <option value="s" selected>S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+                <option value="2xl">2XL</option>
+            </select>
+        </p>
+        <p>
+            <label>Quantity:</label>
+            <input type="number" min="1" max="100">
+        </p>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <br>
+        <br>
+        <p>
+            <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, sit.</i>
+        </p>
+        <br>
+        <br>
+    </form>
+    <hr>
+    <h2>Form 3</h2>
+    <form action="">
+        
+        <p>
+            <label for="textArea">Adress:</label><br>
+            <textarea id="textArea" placeholder="Address" cols="30" rows="3"></textarea>
+        </p>
+
+        <p>
+            <label for="postCode">Post code:</label>
+            <input id="postCode" type="number" placeholder="Post code">
+        </p>
+
+        <p>
+            <label for="country">Country:</label>
+            <input id="country" type="text" placeholder="Country">
+        </p>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <br>
+        <br>
+    </form>
+    <hr>
+
+    <h2>Form 4</h2>
+
+    <h3>Card type</h3>
+    <form action="">
+        <p>
+            <label for="visa">VISA</label>
+            <input id="visa" type="radio" name="card">
+            <label for="uzcard">Uzcard</label>
+            <input id="uzcard" type="radio" name="card">
+            <label for="mastercard">Mastercard</label>
+            <input id="mastercard" type="radio" name="card">
+        </p>
+    
+        <p>
+            <label for="cardNumber">Card number</label>
+            <input type="text" minlength="16" required>
+        </p>
+
+        <p>
+            <label for="password">Password:</label>
+            <input id="password" type="password" minlength="2" maxlength="8">
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
